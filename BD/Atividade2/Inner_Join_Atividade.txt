@@ -1,0 +1,51 @@
+create database empresacapitalista;
+
+use empresacapitalista;
+
+CREATE TABLE funcionario
+(cod_func int PRIMARY KEY,
+ nome_func varchar (80),
+ cod_depto int,
+ salario INT);
+
+
+INSERT into funcionario VALUES 
+(1, "Felipe",		3, 20000),	
+(2, "Tuts Tuts",	2, 10000),
+(3, "Joao",		1, 15000),	
+(4, "Jana",		5, 11000),
+(5, "Gabi",		4, 14000);
+
+-----------------------------------
+
+use empresacapitalista;
+
+CREATE TABLE departamento
+(cod_depto int PRIMARY KEY,
+ nome varchar(80));
+
+
+INSERT into departamento VALUES 
+(1, "Financeiro"),
+(2, "RH"),
+(3, "Gerenciar Almas"),
+(4, "Limpeza"),
+(5, "Gerencia");
+
+------------------------------------
+
+Inner join exemplo 1
+
+select departamento.cod_depto,departamento.nome,funcionario.nome_func 
+from departamento inner join funcionario 
+on departamento.cod_depto=funcionario.cod_depto 
+order by departamento.nome
+
+Inner join exemplo 2
+
+select departamento.cod_depto,departamento.nome,funcionario.nome_func 
+from departamento inner join funcionario 
+on departamento.cod_depto=funcionario.cod_depto 
+where departamento.cod_depto between 1 and 3 
+and funcionario.salario >= 2000 
+order by departamento.cod_depto

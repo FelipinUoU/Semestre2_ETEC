@@ -1,0 +1,15 @@
+{
+    "name": "admin/cadastro-presenca",
+    "description": "Aula de 17 de setembro",
+    "autoload": {
+        "psr-4": {
+            "Admin\\CadastroPresenca\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe"
+        }
+    ],
+    "require": {}
+}

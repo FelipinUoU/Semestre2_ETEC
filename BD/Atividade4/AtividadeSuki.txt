@@ -1,0 +1,34 @@
+CREATE DATABASE ExercBD01
+
+USE ExercBD01;
+
+CREATE TABLE pet (
+
+NumRegistro int,
+Nome varchar(80),
+Especie varchar(25),
+Raca varchar(30),
+Cor varchar(40),
+Nascimento datetime,
+Sexo varchar(9)
+
+);
+
+USE ExercBD01;
+
+
+
+INSERT INTO pet VALUES
+(7, 'Lily',		'Gato',			'SnowShow',		'Branco e Preto''18/07/2010', 'Feminino'),			
+(8, 'Juca',		'Gato',			'Maine Coon',		'Preto',	'18/07/2010', 'Feminino'),
+(9, 'Juca',		'Gato',			'Viralata',		'Preto',	'18/07/2010', 'Masculino'),
+(10, 'Mari',		'Cachocorro',		'Viralata',		'Laranja',	'10/08/2011', 'Masculino'),
+(11, 'Steven',		'Gato',			'Ragdoll',		'Preto',	'10/07/2015', 'Feminino'),
+(12, 'Joka',		'Gato',			'Persa',		'Branco',	'20/07/2010', 'Feminino'),
+(13, 'Jorge',		'Gato',			'Viralata',		'Preto',	'19/01/2018', 'Masculino'),
+(14, 'Meg',	        'Gato',			'Viralata',		'Amarelo',	'01/07/2010', 'Feminino'),
+(15, 'Vagabunda',	'Gato',			'Persa',		'Preto',	'25/07/2007', 'Feminino'),
+(16, 'Vagabunda',	'Gato',			'Viralata',		'Laranja',	'18/07/2011', 'Masculino');
+
+
+select * from pet;

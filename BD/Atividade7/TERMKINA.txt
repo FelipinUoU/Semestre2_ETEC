@@ -1,0 +1,30 @@
+CREATE DATABASE EmpresaSafada;
+
+USE EmpresaSafada;
+
+CREATE TABLE Funcionario (
+Codigo_func int AUTO_INCREMENT PRIMARY KEY,
+NomeFunc varchar (80),
+DataNasci Date,
+CPF int(11),
+RG int(7),
+Endereço varchar (80),
+CEP int(7),
+Cidade varchar(2),
+Fone int(11),   
+CodigoDepartamento int,    
+Função varchar (20),   
+Salario int    
+);        
+
+CREATE TABLE Departamento (
+CodigoDepartamento int PRIMARY KEY,
+NomeDepto varchar (30)
+);  
+        
+        
+drop database EmpresaSafada;
+
+drop table Funcionario;
+
+drop table Departamento;

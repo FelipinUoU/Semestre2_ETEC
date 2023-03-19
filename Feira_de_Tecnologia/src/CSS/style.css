@@ -1,0 +1,233 @@
+/* Body */   
+
+    .calculadora{   
+        background-image: url(../IMG/background_CINZA_.png); }
+
+    .home{
+        background-image: url(../IMG/background_CINZA_.png); }
+
+    .descricao{
+        background-image: url(../IMG/background_CINZA_.png); }
+
+/* Body */
+
+
+
+/* --- NavBar --- */
+    
+    /* Color N. */
+
+    .navbar, .navbar-expand-lg, .navbar-dark {
+
+        background-color: rgb(24, 24, 24);             
+    }
+
+    /* Color N. */
+
+    /* Texto N. */
+
+    p .TextNavBar {
+
+        font-family: "Bahnschrift Light SemiCondensed";
+        position: right;
+    }
+
+    /* Texto N.*/
+
+    /* Imagem Tamanho */
+
+    .NavbarF {
+
+        width: 8%;
+        height: 8%;
+    }
+
+    /* Imagem Tamanho */
+
+    /* NavBar Brand */
+    .navbar-brand:hover {
+
+        color: rgb(138, 136, 136);
+    }
+    
+    /* NavBar Brand */
+
+
+    /* Itens */
+
+    .navbar-toggler-icon {
+
+        color: white;
+        
+    }
+
+    .nav-link, .active, .nav-item, .navbar-toggler .navbar-nav {
+
+        color: white;
+        opacity: 80%;
+    }
+    .nav-item:hover {
+
+        color: white;
+        font-size: large;
+        opacity: 100%;
+    }
+    .nav-link:hover {
+        
+        color: white;
+        opacity: 100%;
+    }
+
+    /* Itens */
+
+    /* Linha azul */
+
+    hr {
+
+        opacity: 100%;
+        border-width: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #11a0c7;
+    }
+
+    /* Linha azul */
+
+/* --- NavBar --- */
+
+
+
+
+
+
+/* --- Carousel --- */
+
+
+    /* Imagem */
+
+    #ImageCarosel {
+        
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 20px; 
+        padding-top: 15px;
+        position: static;
+
+        max-width: 100%;
+        max-height: 720px;  
+        background-color: rgb(44, 44, 44);
+    }
+
+    @media (max-width: 480px) {
+        #ImageCarosel  {
+          
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 1%; 
+        padding-top: 0%;
+        position: static;
+
+        width: 560px;
+        height: 100%;
+        background-color: rgb(44, 44, 44);
+        }
+    }
+
+
+    /* Imagem */
+
+    /* Texto C. */
+
+    .carousel-caption > h5 {
+
+        color: white; 
+    }
+
+    .carousel-caption > p {
+
+        color: white;
+    }
+
+    /* Texto C. */
+
+/* --- Carousel --- */
+
+
+
+
+
+
+
+/* --- Descrição --- */
+
+    /* Texto D. */
+
+    .Titulo {
+
+        font-weight: bold;
+        font-family: Bahnschrift Condensed;
+        background-color: black;
+        opacity: 30%;
+        padding-top: 8px;
+        padding-bottom: 5px;
+        position: relative;
+        text-align: center;
+    }
+
+
+    .container-lg {
+
+        opacity: 50%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+    }
+
+    .descriTexto {
+
+        font-family: Bahnschrift Light;
+        color: white;
+        opacity: 200%;
+        
+
+        text-align: justify;
+        font-size: 20px;
+
+        margin-top: 15px;
+        margin-bottom: 100px;
+
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 25px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    /* Texto D. */
+
+/* --- Descrição --- */
+
+
+/* --- Fim --- */
+
+    .text-center, .text-lg-start {
+
+        background-color: rgb(24, 24, 24);
+    }
+    
+    .texto {
+
+        font-family: Bahnschrift Light;
+        color: white;
+        text-align: justify;
+    }
+
+    .text-uppercase {
+
+        font-family: Bahnschrift;
+        color: white;
+        text-align: center;
+    }
+
+    
+/* --- Fim --- */
+    

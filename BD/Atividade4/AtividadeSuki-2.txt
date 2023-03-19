@@ -1,0 +1,43 @@
+CREATE DATABASE ExercBD02;
+
+
+create table Departamento (
+
+CodDepart int,
+NomeDepart varchar(50));
+
+insert into Departamento values 
+
+(1, 'Financeiro'),
+(2, 'Marketing'),
+(3, 'Seguraça'),
+(4, 'RH'),
+(5, 'Logistica');
+
+
+SELECT * FROM Departamento; 
+
+				Create table Funcionarios (
+				CodFunc int,
+				NomeFunc varchar (50),
+				CodDepart int,
+				Ramal int,
+				Salario double,
+				DataAdmissao Datetime,
+				DataCadastro datetime,
+				Sexo char (1));
+				
+				insert into Funcionarios values 
+				
+				(11, 	'Felipe Silva',	 	5, 9855, 2500, 12/02/2018, 10/02/2018, 'M'),
+				(12,	'Jessica Ramalho',	2, 9856, 3100, 15/08/2019, 13/08/2019, 'F'),
+				(13,	'Lisa Sandra', 		2, 9857, 1800, 23/08/2015, 22/08/2015, 'F'),
+				(14, 	'Artur Saki', 		1, 9858, 2500, 20/09/2016, 18/19/2016, 'M'),
+				(15, 	'Yoshida Silva', 	2, 9859, 2500, 16/10/2017, 14/10/2017, 'M'),
+				(16, 	'Ana Beatrix', 		5, 9860, 3000, 16/01/2019, 14/01/2019, 'F'),
+				(17, 	'Felipe Santos',	2, 9861, 4000, 17/05/2020, 15/05/2020, 'M'),		
+				(18, 	'Angelica Silva', 	3, 9862, 2200, 20/08/2018, 18/08/2018, 'F'),
+				(19, 	'Maria Silva', 		1, 9863, 2700, 12/12/2017, 10/12/2017, 'F'),
+				(20, 	'Andersom Joao', 	4, 9864, 2200, 13/11/2019, 11/11/2019, 'M');
+				
+                SELECT * FROM Funcionarios; 

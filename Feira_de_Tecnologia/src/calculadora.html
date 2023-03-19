@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="icon/FinanceHelper-512.png" rel="icon">
+    <title>Calculadora</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="CSS/calculadora.css">
+<link rel="stylesheet" href="CSS/style.css">
+
+<script src="JS/calculadora.js"></script>
+<script src="JS/main.js" defer></script>
+
+
+
+</head>
+
+<body class="home">
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="ICON/FinanceHelper-logo.png" alt="CALCULATOR" width="auto" height="60">
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">PAGINA INICIAL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="calculadora.html" >CALCULADORA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="equipe.html" style="padding-right: 80px;">EQUIPE</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+<hr>
+
+<!-- Navbar -->
+
+<!-- Calculadora -->
+      <div class="row justify-content-center" style="border-left: 0px; border-right: 0px;">
+        <div class="col-md-4">
+            <div class="container">        
+                <div class="fundoform"> 
+                    <div class="container">
+                        <form action="">
+                            <br>
+                            <h4 style="text-align: center;">Capital Inicial</h4>
+                            <div class="fundoitens">
+                                <div class="container-fluid">
+                                    <br>
+                                    <div class="form-row">
+                                        <div class="col-sm">
+                                            <h5>Valor</h5>
+                                            <input class="form-control" type="text" placeholder="Digite o valor inicial da aplicação." aria-label="default input example" name="valorini" id="valorini">
+                                        </div>
+                                    </div><br><br>
+                                    
+                                    <div class="row">
+                                    <h5>Tempo</h5>
+                                        <div class="col-md-5 p-2">
+                                            <select class="form-select" aria-label="Default select example" name = "tempo" id="time">
+                                                <option value="3" name="3m" >3 Meses</option>
+                                                <option value="6" name="6m" >6 Meses</option>
+                                                <option value="12" name="1a" >1 Ano</option>
+                                                <option value="36" name="3a" >3 Anos</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md p-2">
+                                            <input class="form-control" type="submit" class="btn btn-primary" value="Calcular" id="calcular"></button> 
+                                        </div>
+                                    </div><br>  
+                                </div>
+                            </div><br>
+
+                            <h4  style="text-align: center;">Resultados</h4>
+                            <div class="fundoitens">
+                                <div class="container">
+                                    <br>                        
+                                    <div class="row">
+                                        <div class="row"><h5>Poupança</h5></div>
+                                        <div class="col-md-4 p-2">
+                                            <input class="form-control" type="text" value="6.17" aria-label="Disabled input example" disabled readonly name="txpoupanca" id="txpoupanca">
+                                        </div>
+                                        <div class="col-sm p-2">
+                                            <input class="form-control" type="text" id="valorpoupanca" aria-label="Disabled input example" disabled readonly>
+                                        </div>
+                                    </div>
+
+                                    <br> 
+                                    <div class="row"> 
+                                        <div class="row"><h5>CDB</5></div>
+                                        <div class="col-md-4 p-2">
+                                            <input class="form-control" type="text" value="13.75" name="txselic" id="txselic" aria-label="Disabled input example" disabled readonly>
+                                        </div>
+                                        <div class="col-sm p-2">
+                                            <input class="form-control" type="text" value="" aria-label="Disabled input example" disabled readonly id="valorselic">
+                                        </div>
+                                    </div><br>
+                                    
+                                    <div class="row"> 
+                                        <div class="row"><h5>Tesouro Selic</h5></div> 
+                                        <div class="col-md-4 p-2">
+                                            <input class="form-control" type="text" value="11.26" name="txcdb" id="txcdb" aria-label="Disabled input example" disabled readonly>
+                                        </div>
+                                        <div class="col-sm p-2">
+                                            <input class="form-control" type="text" value="" aria-label="Disabled input example" disabled readonly id="valorcdb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      <!-- Calculadora -->   
+
+      <!-- Calculadora Texto -->
+        <div class="col-xl p-3">
+            <div class="container">
+
+                <h5>Tesouro direto</h5>
+
+                <p class="textocalc"> 
+                  O Tesouro Direto é um dos investimentos mais populares no Brasil. Uma razão para isso é que o programa negocia títulos do governo, que são os títulos mais seguros do mercado. Além disso, o Tesouro Direto oferece uma variedade de títulos para atender aos seus diversos objetivos financeiros, sejam eles curtos, médios ou longos.
+                  Tesouro Direto é um programa do governo federal desenvolvido em 2002 como uma colaboração entre o Ministério da Fazenda e a B3. O objetivo desse programa é facilitar o acesso de pessoas físicas a investimentos do setor público por meio da Internet.
+                  Esse investimento tem um retorno maior do que a poupança, e a diferença tem crescido ao longo dos anos. A partir de R$ 30 já é possível começar a investir no Tesouro Direto. Ao comprar um título, o Tesouro do Estado paga juros sobre o valor investido durante o período de aplicação.</p>
+                  
+                  
+                  
+                  <h5>CDB</h5>
+                  
+                  
+                  <p class="textocalc">  
+                  O CDB (Certificado de Depósito Bancário) é um título emitido pelos bancos para arrecadar dinheiro e financiar suas operações. Em troca, o investidor recebe o valor solicitado emprestando dinheiro ao banco mais a taxa de juros acordada no momento do investimento. Este é um dos investimentos de renda fixa mais simples e populares. É um investimento seguro com um retorno maior do que suas economias.
+                  Existem três tipos de CDB: juros fixos, quando a taxa de juros já é determinada no momento da aplicação, que permite determinar quanto o investimento renderá antes do vencimento do título; com taxa de juros flutuante, onde a rentabilidade é determinada pelo percentual de um índice como o Certificado de Depósito Interbancário (CDI); e um híbrido, que é uma combinação dos dois anteriores: parte da rentabilidade é determinada no momento da aplicação e a outra parte está vinculada a um índice econômico como o IPCA.</p>
+            </div> 
+        </div>
+      <!-- Calculadora Texto -->
+
+<!-- Rodapé -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0); color: white;">
+          © 2022 Copyright: ETEC Zona Leste 
+        </div>
+        <!-- Copyright -->
+
+<!-- Rodapé -->
+        
+</body>
+</html>

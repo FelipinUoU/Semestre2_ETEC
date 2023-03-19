@@ -1,0 +1,120 @@
+/* --- Calculadora --- */
+
+    .fundoform {
+
+        background-color: rgb(26, 26, 26);
+        border: 2px solid black;
+        border-radius: 20px;
+        opacity: 100%;
+    }
+
+    .fundoitens {
+
+        background-color: #11a0c7;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    .textocalc {
+
+        color: black;
+        text-align: justify;
+    }
+
+/* --- Calculadora --- */
+
+    /* Texto D. */
+
+    .Titulo {
+
+        font-weight: bold;
+        font-family: Bahnschrift Condensed;
+        background-color: black;
+        opacity: 30%;
+        padding-top: 8px;
+        padding-bottom: 5px;
+        position: relative;
+        text-align: center;
+    }
+
+
+    .container-lg {
+
+        opacity: 50%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+    }
+
+    .descriTexto {
+
+        font-family: Bahnschrift Light;
+        color: white;
+        opacity: 200%;
+        
+
+        text-align: justify;
+        font-size: 20px;
+
+        margin-top: 15px;
+        margin-bottom: 10px;
+
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 25px;
+        padding-top: 30px;
+    }
+
+    /* Texto D. */
+
+/* --- Descrição --- */
+
+
+
+
+/* --- Fim --- */
+
+.text-center, .text-lg-start {
+
+    background-color: rgb(24, 24, 24);
+}
+
+
+.texto {
+
+    color: white;
+    text-align: justify;
+}
+
+.text-uppercase {
+
+    color: white;
+    text-align: center;
+}
+
+.text-center, .p-3 {
+
+    color: aliceblue;
+}
+
+
+h4 {
+
+    color: rgb(255, 255, 255);
+}
+
+h5 {
+
+    color: rgb(0, 0, 0);
+}
+
+.container{
+
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+body{
+
+    background-image: url(../IMG/background_CINZA_.png);
+}
+/* --- Fim --- */

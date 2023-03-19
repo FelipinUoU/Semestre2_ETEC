@@ -1,0 +1,18 @@
+{
+    "name": "admin/aula-pwa2",
+    "description": "Primeirop aplicativo em composer",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\AulaPwa2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe Silva"
+        }
+    ]
+}

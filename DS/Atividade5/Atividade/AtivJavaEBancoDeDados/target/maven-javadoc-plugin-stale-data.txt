@@ -1,0 +1,55 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/pipis/.m2/repository/org/xerial/sqlite.jdbc/3.23.1/sqlite.jdbc-3.23.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'14'
+-sourcepath
+'C:/Users/pipis/OneDrive - Etec Centro Paula Souza/Documents/AtividadesEtec/Semestre2/DS/22-09_Conexao_Entre_BancoDeDados/Atividade/AtivJavaEBancoDeDados/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/pipis/OneDrive - Etec Centro Paula Souza/Documents/AtividadesEtec/Semestre2/DS/22-09_Conexao_Entre_BancoDeDados/Atividade/AtivJavaEBancoDeDados/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'AtivJavaEBancoDeDados 1.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/14/docs/api' 'C:/Users/pipis/OneDrive - Etec Centro Paula Souza/Documents/AtividadesEtec/Semestre2/DS/22-09_Conexao_Entre_BancoDeDados/Atividade/AtivJavaEBancoDeDados/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'AtivJavaEBancoDeDados 1.0 API'
+com.felipe.Conxeao
+com.felipe.Util
+'C:/Users/pipis/OneDrive - Etec Centro Paula Souza/Documents/AtividadesEtec/Semestre2/DS/22-09_Conexao_Entre_BancoDeDados/Atividade/AtivJavaEBancoDeDados/src/main/java/com/felipe/Conxeao/ConexaoBanco.java'
+'C:/Users/pipis/OneDrive - Etec Centro Paula Souza/Documents/AtividadesEtec/Semestre2/DS/22-09_Conexao_Entre_BancoDeDados/Atividade/AtivJavaEBancoDeDados/src/main/java/com/felipe/Conxeao/Escolha.java'
+'C:/Users/pipis/OneDrive - Etec Centro Paula Souza/Documents/AtividadesEtec/Semestre2/DS/22-09_Conexao_Entre_BancoDeDados/Atividade/AtivJavaEBancoDeDados/src/main/java/com/felipe/Conxeao/Principal.java'
+'C:/Users/pipis/OneDrive - Etec Centro Paula Souza/Documents/AtividadesEtec/Semestre2/DS/22-09_Conexao_Entre_BancoDeDados/Atividade/AtivJavaEBancoDeDados/src/main/java/com/felipe/Util/IO.java'
+C:\Users\pipis\.m2\repository\org\xerial\sqlite.jdbc\3.23.1\sqlite.jdbc-3.23.1.jar = 1661005338000
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\src\main\java = 1663954850720
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\allclasses-index.html = 1665100427155
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\allpackages-index.html = 1665100427163
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\copy.svg = 1665100427243
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\element-list = 1665100426471
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\help-doc.html = 1665100427193
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\index-all.html = 1665100427184
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\index.html = 1665100427122
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\jquery-ui.overrides.css = 1665100427434
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\member-search-index.js = 1665100427169
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\module-search-index.js = 1665100427164
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\overview-summary.html = 1665100427187
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\overview-tree.html = 1665100427110
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\package-search-index.js = 1665100427166
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\script.js = 1665100427241
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\search.js = 1665100427245
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\stylesheet.css = 1665100427239
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\tag-search-index.js = 1665100427170
+C:\Users\pipis\OneDrive - Etec Centro Paula Souza\Documents\AtividadesEtec\Semestre2\DS\22-09_Conexao_Entre_BancoDeDados\Atividade\AtivJavaEBancoDeDados\target\apidocs\type-search-index.js = 1665100427167
